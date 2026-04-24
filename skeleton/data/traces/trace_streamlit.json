@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2026-03-01T15:50:01.258423",
+    "type": "send_llm_query",
+    "data": {
+      "query": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant. You must answer ONLY using the context below from the uploaded PDF.\nSTRICT RULES:\n- Use ONLY information that appears in the context. Do not use any external or general knowledge.\n- If the answer is not in the context, say so and do not invent an answer.\n- Do not combine context information with outside knowledge.\n\nContext from PDF:\nThe long June twilight faded into night. Dublin lay enveloped in darkness but for the dim light of \nthe moon that shone through fleecy clouds, casting a pale light as of approaching dawn over the \nstreets and the dark waters of the Liffey. Around the beleaguered Four Courts the heavy guns \nroared. Here and there through the city, machine guns and rifles broke the silence of the night, \nspasmodically, like dogs barking on lone farms. Republicans and Free Staters were waging civil \nwar.\n \nOn a rooftop near O'Connell Bridge, a Republican sniper lay watching. Beside him lay his rifle and \nover his shoulders was slung a pair of field glasses. His face was the face of a student, thin and \nascetic, but his eyes had the cold gleam of the fanatic. They were deep and thoughtful, the eyes \nof a man who is used to looking at death.\n \nHe was eating a sandwich hungrily. He had eaten nothing since morning. He had been too \nexcited to eat. He finished the sandwich, and, taking a flask of whiskey from his pocket, he took a \nshort draught. Then he returned the flask to his pocket. He paused for a moment, considering \nwhether he should risk a smoke. It was dangerous. The flash might be seen in the darkness, and \nthere were enemies watching. He decided to take the risk.\n \nPlacing a cigarette between his lips, he struck a match, inhaled the smoke hurriedly and put out \nthe light. Almost immediately, a bullet flattened itself against the parapet of the roof. The sniper \ntook another whiff and put out the cigarette. Then he swore softly and crawled away to the left.\n \nCautiously he raised himself and peered over the parapet. There was a flash and a bullet whizzed \nover his head. He dropped immediately. He had seen the flash. It came from the opposite side of \nthe street.\n \nHe rolled over the roof to a chimney stack in the rear, and slowly drew himself up behind it, until \nhis eyes were level with the top of the parapet. There was nothing to be seen--just the dim outline \nof the opposite housetop against the blue sky. His enemy was under cover.\n \nJust then an armored car came across the bridge and advanced slowly up the street. It stopped \non the opposite side of the street, fifty yards ahead. The sniper could hear the dull panting of the \nmotor. His heart beat faster. It was an enemy car. He wanted to fire, but he knew it was useless. \nHis bullets would never pierce the steel that covered the gray monster.\n \nThen round the corner of a side street came an old woman, her head covered by a tattered shawl. \nShe began to talk to the man in the turret of the car. She was pointing to the roof where the \nsniper lay. An informer.\n \nThe turret opened. A man's head and shoulders appeared, looking toward the sniper. The sniper \nraised his rifle and fired. The head fell heavily on the turret wall. The woman darted toward the \nside street. The sniper fired again. The woman whirled round and fell with a shriek into the gutter.\n \nSuddenly from the opposite roof a shot rang out and the sniper dropped his rifle with a curse.\n\nThe rifle clattered to the roof. The sniper thought the noise would wake the dead. He stooped to \npick the rifle up. He couldn't lift it. His forearm was dead. \"I'm hit,\" he muttered.\n \nDropping flat onto the roof, he crawled back to the parapet. With his left hand he felt the injured \nright forearm. The blood was oozing through the sleeve of his coat. There was no pain--just a \ndeadened sensation, as if the arm had been cut off.\n \nQuickly he drew his knife from his pocket, opened it on the breastwork of the parapet, and ripped \nopen the sleeve. There was a small hole where the bullet had entered. On the other side there \nwas no hole. The bullet had lodged in the bone. It must have fractured it. He bent the arm below \nthe wound. The arm bent back easily. He ground his teeth to overcome the pain.\n"
+        },
+        {
+          "role": "user",
+          "content": "can you summarize the  given  pdf"
+        },
+        {
+          "role": "assistant",
+          "content": "The PDF is a short story set in Dublin during the Irish Civil War. It follows a Republican sniper positioned on a rooftop near O'Connell Bridge. The sniper is engaged in a gunfight with enemies, including an armored car. An old woman is seen pointing out the sniper's location to the enemy, leading to a confrontation where the sniper shoots and kills both the man in the car and the woman. In the exchange of gunfire, the sniper is shot in the arm, leaving him with a dead"
+        },
+        {
+          "role": "user",
+          "content": "can you paraphrise the given pdf"
+        }
+      ],
+      "model": "gpt-3.5-turbo"
+    }
+  }
+]

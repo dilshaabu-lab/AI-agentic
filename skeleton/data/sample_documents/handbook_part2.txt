@@ -1,0 +1,13 @@
+NebulaScale Employee Handbook
+Section 3: Code of Conduct
+Respect and inclusion are our core values. Harassment of any kind is not tolerated.
+See the full anti-harassment policy in the dedicated PDF (HR Portal).
+Conflict of interest: Employees may not hold outside employment with competitors.
+Open Source: We encourage contributing to open source, but please clear specific projects with your manager if they relate to company IP.
+
+Section 4: Technical Stack
+Our backend is written in Python (FastAPI) and Go.
+Frontend is React with TypeScript.
+We use PostgreSQL for relational data and Redis for caching.
+Infrastructure is hosted on AWS (EKS).
+CI/CD is managed via GitHub Actions.

@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2026-02-28T16:09:05.304667",
+    "type": "session_start",
+    "data": {
+      "query": "Summarize the benefits of apples."
+    }
+  },
+  {
+    "timestamp": "2026-02-28T16:09:05.304667",
+    "type": "retrieval_start",
+    "data": {
+      "query": "Summarize the benefits of apples."
+    }
+  },
+  {
+    "timestamp": "2026-02-28T16:09:05.305670",
+    "type": "retrieval_end",
+    "data": {
+      "documents": [
+        "Apples are rich in fiber.",
+        "Apples contain Vitamin C."
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-28T16:09:05.306671",
+    "type": "llm_call",
+    "data": {
+      "prompt": "Context: Apples are rich in fiber.\nApples contain Vitamin C.\nQuestion: Summarize the benefits of apples.",
+      "model": "gpt-3.5-turbo"
+    }
+  },
+  {
+    "timestamp": "2026-02-28T16:09:06.001333",
+    "type": "llm_response",
+    "data": {
+      "text": "Apples have several health benefits due to their nutritional content. They are rich in fiber, which can aid digestion and promote overall gut health. Additionally, apples contain Vitamin C, an essential antioxidant that helps boost the immune system and protect against infections. Overall, consuming apples can contribute to a healthy diet and provide various nutritional advantages."
+    }
+  }
+]
